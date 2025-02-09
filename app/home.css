@@ -1,0 +1,19 @@
+body {
+    font-size: 16px; /* root font size */
+}
+
+h1 {
+    font-size: 2rem; /* 2 * 16px = 32px */
+}
+
+p {
+    font-size: 1.5em; /* if parent font size is 20px, then 1.5em = 30px */
+}
+
+footer {
+    font-size: 14px; /* parent size for example */
+}
+
+footer p {
+    font-size: 1em; /* 1 * 14px = 14px because this is relative to footer */
+}
