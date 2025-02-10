@@ -5,7 +5,7 @@ const { createPaymentSession } = require("./payment");
 const router = express.Router();
 
 // Google OAuth login
-router.get("/auth/google", passport.authenticate("google", { scope: ["profile", "email"] }));
+router.get("/auth/google", passport.authenticate("google", { scope: ["profile", "email"],  }));
 
 // Google OAuth callback
 router.get(
