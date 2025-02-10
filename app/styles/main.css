@@ -19,17 +19,17 @@ body {
 }
 
 .btn-primary {
-    background-color: #FF00FF;
+    background-color: #4f399c;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #CC00CC;
+    background-color: #bfce36;
 }
 
 .btn-secondary {
-    background-color: #FFFF00;
-    color: black;
+    background-color: #343e77;
+    color: rgb(212, 202, 202);
 }
 
 .btn-secondary:hover {

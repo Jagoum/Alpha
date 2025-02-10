@@ -9,7 +9,7 @@
     "stripe": "^17.6.0"
   },
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon /home/jagoum/Alpha/server/server.js"
   },
   "name": "hackathon",
   "version": "1.0.0",
