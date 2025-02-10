@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain Tech Africa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: rgba(255, 255, 255, 0.9);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: black;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #007BFF;
+        }
+
+        /* Hero Section */
+        #hero {
+            text-align: center;
+            padding: 150px 20px;
+            background: url('WhatsApp Image 2025-02-10 at 9.37.07 AM.jpeg') no-repeat center center/cover;
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        #hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .btn {
+            padding: 12px 25px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .btn:hover {
+            background: #0056b3;
+            transform: scale(1.1);
+        }
+
+        /* Services Section */
+        #services {
+            padding: 80px 10%;
+            text-align: center;
+            background: white;
+        }
+        #services h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+        .service-cards {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .card {
+            background: rgb(166, 207, 241);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card i {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #007BFF;
+        }
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* About Us Section */
+        #about {
+            padding: 80px 10%;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            background: #f4f4f4;
+        }
+        #about img {
+            width: 50%;
+            border-radius: 10px;
+        }
+        #about-text {
+            width: 50%;
+        }
+        #about-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        #about-text p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #007BFF;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .service-cards {
+                flex-direction: column;
+            }
+            #about {
+                flex-direction: column;
+            }
+            #about img, #about-text {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Mountain Tech Africa</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Empowering Africa Through Innovation</h1>
+        <p>We provide cutting-edge technology solutions to drive growth and development.</p>
+        <a href="#services" class="btn">Explore Services</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Consulting</h3>
+                <p>Expert advice to help your business grow and thrive.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-laptop"></i>
+                <h3>Development</h3>
+                <p>Custom software solutions tailored to your needs.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Marketing</h3>
+                <p>Innovative strategies to boost your brand.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <img src="1000_F_582937062_oBN6Mf6hrdh6t4py5ndSfp7V3U52uWRM.jpg" alt="Our Team">
+        <div id="about-text">
+            <h2>About Us</h2>
+            <p>Mountain Tech Africa is a leading technology company dedicated to delivering innovative solutions that drive business success. Our team of experts is passionate about helping businesses achieve their goals through cutting-edge technology and strategic insights.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mountain Tech Africa. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        console.log("Website Loaded");
+    </script>
+</body>
+</html>
