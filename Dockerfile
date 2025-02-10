@@ -1,25 +1,13 @@
-# Stage 1: Build the application
-FROM node:16 AS build
+FROM postgres:latest AS me
 
-WORKDIR /app
+WORKDIR /myapp
 
-# Copy the package.json and install dependencies
-COPY package*.json ./
-RUN npm install
-
-# Copy the rest of the application files
 COPY . .
 
-# Stage 2: Production container
-FROM node:16-slim
+FROM ubuntu:latest
 
-WORKDIR /app
+WORKDIR /myapp
 
-# Copy only the necessary files from the build stage
-COPY --from=build /app /app
+COPY --from=me /myapp /myapp
 
-# Expose the app port
-EXPOSE 3000
-
-# Start the app
-CMD ["npm", "start"]
+CMD ["/myapp"]

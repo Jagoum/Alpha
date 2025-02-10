@@ -1,6 +1,6 @@
 const express = require("express");
 const passport = require("passport");
-const { createPaymentSession } = require("./payments");
+const { createPaymentSession } = require("./payment");
 
 const router = express.Router();
 
