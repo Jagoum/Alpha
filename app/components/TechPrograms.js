@@ -19,13 +19,13 @@ function TechProgram({ program }) {
                     ></div>
                 </div>
             </div>
-            <button 
+            {/* <button 
                 data-name="fund-button"
                 className="btn btn-primary w-full"
                 onClick={() => window.location.href = `#fund/${program.id}`}
             >
                 Fund This Program
-            </button>
+            // </button> */}
         </div>
     );
 }
@@ -34,7 +34,15 @@ function TechPrograms() {
     const programs = [
         {
             id: 1,
-            name: "Coding Bootcamp for Girls in Nairobi",
+            
+            name: (
+                <a
+                  href="#"
+                  className="text-gray-900 hover:text-blue-600"
+                >
+                  Coding Bootcamp for Girls in Nairobi
+                </a>
+              ),
             description: "Empowering young women with coding skills to build the future of Africa",
             image: "program1.jpg",
             currentFunding: 15000,
@@ -43,7 +51,14 @@ function TechPrograms() {
         },
         {
             id: 2,
-            name: "Tech Hub Innovation Center",
+            name: (
+                <a
+                  href="#"
+                  className="text-gray-900 hover:text-blue-600"
+                >
+                  Tech Hub Innovation Center
+                </a>
+              ),
             description: "Creating a space for young entrepreneurs to collaborate and innovate",
             image: "program2.jpg",
             currentFunding: 25000,
@@ -52,7 +67,14 @@ function TechPrograms() {
         },
         {
             id: 3,
-            name: "Rural Digital Literacy Program",
+            name: (
+                <a
+                  href="#"
+                  className="text-gray-900 hover:text-blue-600"
+                >
+                  Rural Digital Literacy Program 
+                </a>
+              ),
             description: "Bringing technology education to remote communities",
             image: "program3.jpg",
             currentFunding: 10000,

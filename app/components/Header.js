@@ -29,11 +29,11 @@ function Header() {
                 {isMenuOpen && (
                     <div data-name="mobile-menu" className="md:hidden py-4">
                         <div className="flex flex-col space-y-4">
-                            <a href="#" className="text-gray-800 hover:text-pink-600">Home</a>
-                            <a href="#about" className="text-gray-800 hover:text-pink-600">About Us</a>
-                            <a href="#fundraise" className="text-gray-800 hover:text-pink-600">Fundraise</a>
-                            <a href="#programs" className="text-gray-800 hover:text-pink-600">Tech Programs</a>
-                            <a href="#contact" className="text-gray-800 hover:text-pink-600">Contact Us</a>
+                            <a href="#" className="text-gray-800 hover:text-blue-600">Home</a>
+                            <a href="#about" className="text-gray-800 hover:text-blue-600">About Us</a>
+                            <a href="#fundraise" className="text-gray-800 hover:text-blue-600">Fundraise</a>
+                            <a href="#programs" className="text-gray-800 hover:text-blue-600">Tech Programs</a>
+                            <a href="#contact" className="text-gray-800 hover:text-blue-600">Contact Us</a>
                         </div>
                     </div>
                 )}

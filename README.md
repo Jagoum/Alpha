@@ -1,2 +1,2 @@
 # Alpha
-Members: jagoum, Favour , Desmond, Joy, Lious
+Members: jagoum, Favour , Desmond, Joy, Louise

@@ -19,7 +19,10 @@ body {
 }
 
 .btn-primary {
+
     background-color: #4f399c;
+
+    background-color: blue;
     color: white;
 }
 
@@ -30,10 +33,17 @@ body {
 .btn-secondary {
     background-color: #343e77;
     color: rgb(212, 202, 202);
+
+    background-color:blue;
+}
+
+.btn-secondary {
+    background-color:blue;
+    color: black;
 }
 
 .btn-secondary:hover {
-    background-color: #CCCC00;
+    background-color: blue;
 }
 
 .section {

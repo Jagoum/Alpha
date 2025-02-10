@@ -17,7 +17,7 @@ function Hero() {
                             <button 
                                 data-name="fund-program-button"
                                 className="btn btn-primary"
-                                onClick={() => window.location.href = '#programs'}
+                                onClick={() => window.location.href = '#projects'}
                             >
                                 Fund a Program
                             </button>
