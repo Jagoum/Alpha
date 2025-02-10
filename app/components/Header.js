@@ -15,6 +15,10 @@ function Header() {
                         <a href="#fundraise" className="text-gray-800 hover:text-pink-600">Fundraise</a>
                         <a href="#programs" className="text-gray-800 hover:text-pink-600">Tech Programs</a>
                         <a href="#contact" className="text-gray-800 hover:text-pink-600">Contact Us</a>
+                         <a href="app/projects.html" className="btn btn-primary bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 hidden md:block">
+                                Submit a Project
+                          </a>
+
                     </nav>
 
                     <button 
@@ -34,6 +38,9 @@ function Header() {
                             <a href="#fundraise" className="text-gray-800 hover:text-pink-600">Fundraise</a>
                             <a href="#programs" className="text-gray-800 hover:text-pink-600">Tech Programs</a>
                             <a href="#contact" className="text-gray-800 hover:text-pink-600">Contact Us</a>
+                            <a href="app/projects.html" className="btn btn-primary bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 hidden md:block">
+                                Submit a Project
+                          </a>
                         </div>
                     </div>
                 )}
