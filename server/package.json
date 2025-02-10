@@ -10,7 +10,7 @@
     "stripe": "^17.6.0"
   },
   "scripts": {
-    "devStart": "nodemon server.js"
+    "Start": "nodemon server.js"
   },
   "name": "hackathon",
   "version": "1.0.0",
