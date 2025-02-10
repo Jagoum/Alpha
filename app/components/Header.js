@@ -11,7 +11,7 @@ function Header() {
 
                     <nav data-name="desktop-nav" className="hidden md:flex space-x-8">
                         <a href="#" className="text-gray-800 hover:text-blue-600">Home</a>
-                        <a href="#about" className="text-gray-800 hover:text-blue-600">About Us</a>
+                        <a href="../about.html">About Us</a>
                         <a href="#fundraise" className="text-gray-800 hover:text-blue-600">Fundraise</a>
                         <a href="#programs" className="text-gray-800 hover:text-blue-600">Tech Programs</a>
                         <a href="#contact" className="text-gray-800 hover:text-blue-600">Contact Us</a>

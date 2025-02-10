@@ -1,8 +1,4 @@
-
-.vscode 
-app/home
-
-
+.env
 /app/node_modules
 node_modules/
 node_modules

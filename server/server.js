@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, '../app')));
 
 // Example route to render an EJS view
 app.get('/', (req, res) => {
-  res.render('index');  // This will render "views/index.ejs"
+  res.render('index'); 
 });
 
 
