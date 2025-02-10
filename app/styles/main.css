@@ -19,11 +19,21 @@ body {
 }
 
 .btn-primary {
+
+    background-color: #4f399c;
+
     background-color: blue;
     color: white;
 }
 
 .btn-primary:hover {
+    background-color: #bfce36;
+}
+
+.btn-secondary {
+    background-color: #343e77;
+    color: rgb(212, 202, 202);
+
     background-color:blue;
 }
 
