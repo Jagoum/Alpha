@@ -1,0 +1,55 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #FF00FF;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #CC00CC;
+}
+
+.btn-secondary {
+    background-color: #FFFF00;
+    color: black;
+}
+
+.btn-secondary:hover {
+    background-color: #CCCC00;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #666666;
+}
