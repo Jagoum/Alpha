@@ -16,4 +16,7 @@ function App() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ee02ab0 (modified app.js)
