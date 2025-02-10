@@ -1,0 +1,57 @@
+.program-card {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-4px);
+}
+
+.program-image {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.program-content {
+    padding: 1.5rem;
+}
+
+.program-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+.program-description {
+    color: #718096;
+    margin-bottom: 1rem;
+}
+
+.program-progress-bar {
+    width: 100%;
+    height: 0.5rem;
+    background-color: #edf2f7;
+    border-radius: 9999px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.program-progress-fill {
+    height: 100%;
+    background-color: #48bb78;
+    border-radius: 9999px;
+    transition: width 0.3s ease;
+}
+
+.program-stats {
+    display: flex;
+    justify-content: space-between;
+    color: #718096;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
