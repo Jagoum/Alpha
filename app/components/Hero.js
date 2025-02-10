@@ -26,7 +26,9 @@ function Hero() {
                                 className="btn btn-secondary"
                                 onClick={() => window.location.href = '#fundraise'}
                             >
+                                
                                 Start Your Own Campaign
+                                
                             </button>
                         </div>
                     </div>
