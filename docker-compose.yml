@@ -7,15 +7,12 @@ services:
     container_name: express-backend
     ports:
       - "3000:3000"
-    environment:
-      - DATABASE_URL=postgresql://postgres:password@db:5432/mountainsdb
-      - GOOGLE_CLIENT_ID=your_google_client_id
-      - GOOGLE_CLIENT_SECRET=your_google_client_secret
-      - STRIPE_SECRET_KEY=your_stripe_secret_key
     depends_on:
       - db
     networks:
       - app-network
+    env_file:
+      - .env
 
   db:
     image: postgres:13
